@@ -1,4 +1,4 @@
-# Hybridized Loss Functions for Enhanced 3D Voxel
+# Optimizing 3D Voxel Image Synthesis through Hybrid Loss Functions in Conditional GANs
 
 ## Overview
 This project implements advanced loss functions for training conditional Generative Adversarial Networks (cGANs) to synthesize 3D voxel images. By hybridizing adversarial and non-adversarial loss functions, the study improves training stability and the quality of generated voxel structures. Metrics like **AAD** (Average Absolute Difference) and **AVAR** (Average Voxel Agreement Ratio) are used to measure the accuracy and structural coherence of the generated images. The findings provide insights into optimizing cGAN loss functions and open pathways for future research on 3D data processing.
