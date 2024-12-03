@@ -1,6 +1,6 @@
 # Optimizing 3D Voxel Image Synthesis through Hybrid Loss Functions in Conditional GANs
 ## Architecture 
-![Architectue](Images\MAIN_ARCH_DIAGRAM.png)
+![Architectue](Images/MAIN_ARCH_DIAGRAM.png)
 
 
 ## Overview
