@@ -105,7 +105,7 @@ pip install -r requirements.txt
 ### Table 2: Loss Function Evaluation for Car Dataset
 | SL NO. | Loss Functions Weights                  | AAD    | AVAR   |
 |--------|-----------------------------------------|--------|--------|
-| 1      | [BCE + BCEWithLogitsLoss (0.7 + 0.3)](Models/Car/BCE_BLL_model_state_dict_400.pth)     | 0.1968 | 0.8032 |
+| 1      | [BCE + BCEWithLogitsLoss (0.7 + 0.3)](Models/Car/BCE_BceLL_model_state_dict_400.pth)     | 0.1968 | 0.8032 |
 | 2      | [BCE + MSE((0.4 + 0.6))](Models/Car/CustomHybridLossMB_model_state_dict_400.pth)                   | Not converged | Not converged |
 | 3      | [BCE + MSE(0.6 + 0.4)](Models/Car/CustomHybridLossBM_model_state_dict_400.pth)                   | Not converged | Not converged |
 | 4      | [BCE + LOGIT + (BCEWithLogitsLoss+MSE) ](Models/Car/Triple_Loss_model_state_dict_400.pth) | 0.1630 | 0.8370 |
